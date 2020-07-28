@@ -9,7 +9,7 @@ public interface APIService {
     @Headers(
             {
                     "Content-Type:application/json",
-                    "Authorization:key=copy you oen key here"
+                    "Authorization:key=copy you own key here"
             }
     )
     @POST("fcm/send")
